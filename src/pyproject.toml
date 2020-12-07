@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "python-example-app"
+version = "0.1.0"
+description = "Python example app"
+authors = ["ademsa"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.62.0"
+uvicorn = "^0.12.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
